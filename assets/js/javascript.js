@@ -5,3 +5,16 @@ heartButtons.forEach(button => {
     button.classList.toggle('active');
   });
 });
+
+
+const menuIcon = document.getElementById('menuIcon');
+const mobileNav = document.getElementById('mobileNav');
+const closeMenu = document.getElementById('closeMenu');
+
+menuIcon.addEventListener('click', () => {
+    mobileNav.classList.add('open');
+});
+
+closeMenu.addEventListener('click', () => {
+    mobileNav.classList.remove('open');
+});

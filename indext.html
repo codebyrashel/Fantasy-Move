@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Move</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+<!-- Header Area -->
+<header class="header">
+    <div class="logo">
+        <img src="./assets/images/hero/Wand.png" alt="Wand">
+        <span>Fantasy Move</span>
+    </div>
+
+    <nav class="nav">
+        <ul class="nav-link">
+            <li class="nav-item">Buy</li>
+            <li class="nav-item">Rent</li>
+            <li class="nav-item">Sell</li>
+            <li class="nav-item">Commercial</li>
+            <li class="nav-item">Value my home</li>
+        </ul>
+    </nav>
+
+    <div class="right desktop-only">
+        <div class="account">
+            <img src="./assets/images/hero/User.png" alt="User">
+            <span>Sign in</span>
+        </div>
+    </div>
+
+    <div class="mobile-right mobile-only">
+        <div class="mobile-menu-toggle" id="menuIcon">
+            <img src="./assets/images/hero/Menu.svg" alt="Menu">
+        </div>
+        <div class="account">
+            <img src="./assets/images/hero/User.png" alt="User">
+            <span>Sign in</span>
+        </div>
+    </div>
+</header>
+
+<!-- Mobile Navigation Drawer -->
+<div class="mobile-nav" id="mobileNav">
+    <div class="mobile-nav-header">
+        <div class="logo">
+            <img src="./assets/images/hero/Wand.png" alt="Wand">
+            <span>Fantasy Move</span>
+        </div>
+        <div id="closeMenu" class="close-btn">✕</div>
+    </div>
+    <ul class="mobile-nav-links">
+        <li class="nav-item">Buy</li>
+        <li class="nav-item">Rent</li>
+        <li class="nav-item">Sell</li>
+        <li class="nav-item">Commercial</li>
+        <li class="nav-item">Value my home</li>
+    </ul>
+    <div class="account mobile-account">
+        <img src="./assets/images/hero/User.png" alt="User">
+        <span>Sign in</span>
+    </div>
+</div>
+
+    <main>
+        <!-------------Hero-Area--------------->
+        <section class="hero-area">
+            <div class="hero-content">
+                <h1>Find your <br> Fantasy move</h1>
+                <div class="search-area">
+                    <input type="text" placeholder="Where is your fantasy home?">
+                    <div class="buttons">
+                        <button class="buy-btn">Buy</button>
+                        <button class="rent-btn">Rent</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---------- Community Section Area ---------->
+        <section class="community">
+            <div class="community-container">
+                <h1>Join our community</h1>
+                <p>Get alerts on new properties and opportunities as they happen.</p>
+                <div class="subscribe-form">
+                    <input type="text" placeholder="jsmith@email.com">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </section>
+
+        <!----------Property Section Area ---------->
+        <section class="properties">
+            <div class="properties-header">
+                <h2>
+                    Magical properties,<br>not so far far away
+                    <img class="star-bg" src="./assets/images/property/star-element.png" alt="Star Element" class="star-element">
+                </h2>
+                <p>Some of our favourites, and hopefully yours</p>
+            </div>
+
+            <div class="properties-grid">
+                <!-- Property Card 1 -->
+                <div class="property-card">
+                    <div class="property-image-wrapper">
+                        <img src="./assets/images/property/Town-house.png" alt="Town house">
+                        <button class="heart-button">
+                            <svg class="heart-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path class="heart-path" d="M12 21l-1.45-1.32C5.4 15.36 
+                                2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 
+                                0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 
+                                3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 
+                                11.18L12 21z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="property-info">
+                        <h3>£1,500,000</h3>
+                        <span>Town house</span>
+                        <div class="property-icons">
+                            <span><img src="./assets/images/property/Bedroom.png" alt="Bedroom">4</span>
+                            <span><img src="./assets/images/property/Bathroom.png" alt="Bathroom">2</span>
+                        </div>
+                        <p>A beautiful town house just outside of the central keep.</p>
+                        <div class="property-footer">
+                            <small>Added 27/08/2024</small>
+                            <span><img src="./assets/images/property/Mail.svg" alt="Mail"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property Card 2 -->
+                <div class="property-card">
+                    <div class="property-image-wrapper">
+                        <img src="./assets/images/property/Detached-farm.png" alt="Detached Farm">
+                        <button class="heart-button">
+                            <svg class="heart-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path class="heart-path" d="M12 21l-1.45-1.32C5.4 15.36 
+                                2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 
+                                0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 
+                                3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 
+                                11.18L12 21z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="property-info">
+                        <h3>£475,000</h3>
+                        <span>Detached Farm</span>
+                        <div class="property-icons">
+                            <span><img src="./assets/images/property/Bedroom.png" alt="Bedroom">5</span>
+                            <span><img src="./assets/images/property/Bathroom.png" alt="Bathroom">2</span>
+                        </div>
+                        <p>Rolling fields and clear views make this countryside farmhouse a rare find.</p>
+                        <div class="property-footer">
+                            <small>Added 30/07/2024</small>
+                            <span><img src="./assets/images/property/Mail.svg" alt="Mail"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property Card 3 -->
+                <div class="property-card">
+                    <div class="property-image-wrapper">
+                        <img src="./assets/images/property/Lighthouse.png" alt="Lighthouse">
+                        <button class="heart-button">
+                            <svg class="heart-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path class="heart-path" d="M12 21l-1.45-1.32C5.4 15.36 
+                                2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 
+                                0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 
+                                3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 
+                                11.18L12 21z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="property-info">
+                        <h3>£935,000</h3>
+                        <span>Lighthouse</span>
+                        <div class="property-icons">
+                            <span><img src="./assets/images/property/Bedroom.png" alt="Bedroom">2</span>
+                            <span><img src="./assets/images/property/Bathroom.png" alt="Bathroom">1</span>
+                        </div>
+                        <p>Overlooking the tempest straights, this lighthouse holds timeless beauty.</p>
+                        <div class="property-footer">
+                            <small>Added 05/05/2024</small>
+                            <span><img src="./assets/images/property/Mail.svg" alt="Mail"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property Card 4 -->
+                <div class="property-card">
+                    <div class="property-image-wrapper">
+                        <img src="./assets/images/property/Treehouse.png" alt="Treehouse">
+                        <button class="heart-button">
+                            <svg class="heart-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path class="heart-path" d="M12 21l-1.45-1.32C5.4 15.36 
+                                2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 
+                                0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 
+                                3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 
+                                11.18L12 21z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="property-info">
+                        <h3>£170,000</h3>
+                        <span>Treehouse</span>
+                        <div class="property-icons">
+                            <span><img src="./assets/images/property/Bedroom.png" alt="Bedroom">2</span>
+                            <span><img src="./assets/images/property/Bathroom.png" alt="Bathroom">1</span>
+                        </div>
+                        <p>Bespoke treehouse crafted in the midst of the fey forest.</p>
+                        <div class="property-footer">
+                            <small>Added 14/11/2024</small>
+                            <span><img src="./assets/images/property/Mail.svg" alt="Mail"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property Card 5 -->
+                <div class="property-card">
+                    <div class="property-image-wrapper">
+                        <img src="./assets/images/property/Galleon.png" alt="Galleon">
+                        <button class="heart-button">
+                            <svg class="heart-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path class="heart-path" d="M12 21l-1.45-1.32C5.4 15.36 
+                                2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 
+                                0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 
+                                3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 
+                                11.18L12 21z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="property-info">
+                        <h3>£395,000</h3>
+                        <span>Galleon</span>
+                        <div class="property-icons">
+                            <span><img src="./assets/images/property/Bedroom.png" alt="Bedroom">20+</span>
+                            <span><img src="./assets/images/property/Bathroom.png" alt="Bathroom">4</span>
+                        </div>
+                        <p>Seasoned war freighter, providing a reliable home for your crew.</p>
+                        <div class="property-footer">
+                            <small>Added 09/10/2024</small>
+                            <span><img src="./assets/images/property/Mail.svg" alt="Mail"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property Card 6 -->
+                <div class="property-card">
+                    <div class="property-image-wrapper">
+                        <img src="./assets/images/property/Grand-tent.png" alt="Grand Tent">
+                        <button class="heart-button">
+                            <svg class="heart-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path class="heart-path" d="M12 21l-1.45-1.32C5.4 15.36 
+                                2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 
+                                0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 
+                                3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 
+                                11.18L12 21z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="property-info">
+                        <h3>£44,000</h3>
+                        <span>Grand tent</span>
+                        <div class="property-icons">
+                            <span><img src="./assets/images/property/Bedroom.png" alt="Bedroom">1</span>
+                            <span><img src="./assets/images/property/Bathroom.png" alt="Bathroom">0</span>
+                        </div>
+                        <p>Compact and easily moved, this grand tent will see you in luxury on the dunes.</p>
+                        <div class="property-footer">
+                            <small>Added 07/08/2024</small>
+                            <span><img src="./assets/images/property/Mail.svg" alt="Mail"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="properties-button">
+                <p>We have a huge number of other properties we’d love to show you.</p>
+                <button>Search all properties</button>
+            </div>
+        </section>
+
+        <!----------Service-Area---------->
+        <section class="services">
+            <div class="services-header">
+                <h2>Our services</h2>
+                <p>Some of our favourites, and hopefully yours</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-item">
+                    <div class="icon-circle">
+                        <img src="./assets/images/service/global.png" alt="Global network" />
+                    </div>
+                    <h3>Global network</h3>
+                    <p>We have offices to help you around the world.</p>
+                </div>
+
+                <div class="service-item">
+                    <div class="icon-circle">
+                        <img src="./assets/images/service/fingerprint.png" alt="Secure transactions" />
+                    </div>
+                    <h3>Secure transactions</h3>
+                    <p>Any deal done with us is secure end to end.</p>
+                </div>
+
+                <div class="service-item">
+                    <div class="icon-circle">
+                        <img src="./assets/images/service/language.png" alt="Language support" />
+                    </div>
+                    <h3>Language support</h3>
+                    <p>Any deal done with us is secure end to end.</p>
+                </div>
+
+                <div class="service-item">
+                    <div class="icon-circle">
+                        <img src="./assets/images/service/support.png" alt="Clear contracts" />
+                    </div>
+                    <h3>Clear contracts</h3>
+                    <p>No complex terminology, our contracts are concise.</p>
+                </div>
+
+                <div class="service-item">
+                    <div class="icon-circle">
+                        <img src="./assets/images/service/location.png" alt="Relentlessly seeking" />
+                    </div>
+                    <h3>Relentlessly seeking</h3>
+                    <p>Once tasked, we focus on your faraway move.</p>
+                </div>
+
+                <div class="service-item">
+                    <div class="icon-circle">
+                        <img src="./assets/images/service/location-2.png" alt="Sustainable" />
+                    </div>
+                    <h3>Sustainable</h3>
+                    <p>All our work is carried out with sustainable practices.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-----------Delivery-Area------------->
+        <section class="delivery-section">
+            <h2 class="delivery-title">We deliver</h2>
+            <div class="stars">
+                <span class="star full">★</span>
+                <span class="star full">★</span>
+                <span class="star full">★</span>
+                <span class="star full">★</span>
+                <span class="star full">★</span>
+                <span class="star full">★</span>
+                <span class="star full">★</span>
+                <span class="star full">★</span>
+                <span class="star full">★</span>
+                <span class="star half">★</span> <!-- This is the right-half star -->
+            </div>
+            <p class="rating-text">
+                Rated 9.5 out of 1000+ reviews on <a href="#">magicmove.com</a>
+            </p>
+        </section>
+
+        <!------------World-Section-Area------------>
+        <section class="world-section">
+            <h2 class="section-title">Let us show you the world</h2>
+            <p class="section-subtitle">
+                We have a whole host of different environments for you to explore and enjoy
+            </p>
+
+            <div class="grid">
+                <div class="card card-wide" style="background-image: url('./assets/images/world/village.png')">
+                    <div class="card-content">
+                        <h3>Peaceful villages</h3>
+                        <div class="tags">
+                            <span>Mydidle</span>
+                            <span>Ruyton XI towns</span>
+                            <span>Stone</span>
+                        </div>
+                        <a href="#" class="browse-link">Browse all villages →</a>
+                    </div>
+                </div>
+
+                <div class="card card-square content-right"
+                    style="background-image: url('./assets/images/world/castles.png')">
+                    <div class="card-content">
+                        <h3>Moody castles</h3>
+                        <div class="tags">
+                            <span>Dawn's breach</span>
+                            <span>For terror</span>
+                        </div>
+                        <a href="#" class="browse-link">Browse all castles →</a>
+                    </div>
+                </div>
+
+                <div class="card card-full" style="background-image: url('./assets/images/world/shores.png')">
+                    <div class="card-content">
+                        <h3>Sandy shores</h3>
+                        <div class="tags">
+                            <span>Glynvale</span>
+                            <span>The Lizard</span>
+                            <span>Châ-lesommér</span>
+                        </div>
+                        <a href="#" class="browse-link">Browse all islands →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="cta-content">
+                <div class="cta-overlay">
+                    <h2>Interested in selling your home?</h2>
+                    <p>Reach out to one of our team now to schedule your free valuation.</p>
+                    <form class="cta-form">
+                        <div class="input-group">
+                            <span class="input-icon">
+                                <img src="./assets/images/property/Mail.svg" alt="Mail">
+                            </span>
+                            <input type="email" placeholder="Enter your email" required>
+                        </div>
+                        <button type="submit">Schedule valuation</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <!-- Logo and Social -->
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="./assets/images/hero/Wand.png" alt="Wand">
+                    <span>Fantasy Move</span>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><img src="./assets/images/footer/Twitter.svg" alt="Twitter"></a>
+                    <a href="#"><img src="./assets/images/footer/YouTube.svg" alt="YouTube"></a>
+                    <a href="#"><img src="./assets/images/footer/Instragram.svg" alt="Instagram"></a>
+                    <a href="#"><img src="./assets/images/footer/Facebook.svg" alt="Facebook"></a>
+                </div>
+            </div>
+
+            <!-- Footer Links -->
+            <div class="footer-links">
+                <div class="column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li>Contact us</li>
+                        <li>Help center</li>
+                        <li>Knowledge base</li>
+                        <li>Selling guide</li>
+                        <li>Buying guide</li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li>Home security</li>
+                        <li>Agencies</li>
+                        <li>Market trends</li>
+                        <li>How to sell</li>
+                        <li>Removals</li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li>About</li>
+                        <li>Careers</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>© 2025 Fantasy Move</p>
+            <div class="legal-links">
+                <a href="#">Privacy policy</a>
+                <a href="#">Terms of service</a>
+            </div>
+        </div>
+
+        <!-- Footer Credit -->
+        <div class="footer-credit">
+            <p>© Rashel Hossen — Developer of this website</p>
+            <p>Built with by <strong>ArcaneXDeveloper</strong></p>
+        </div>
+    </footer>
+
+
+</body>
+
+<script src="./assets/js/javascript.js"></script>
+
+</html>
